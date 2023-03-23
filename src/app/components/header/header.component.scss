@@ -1,0 +1,27 @@
+$principal-font: 'Nunito', sans-serif;
+$principal-color: #E7FFDD;
+
+header {
+  background-color: $principal-color;
+  width: 100vw;
+  height: 8vh;
+}
+
+.container {
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 22%;
+  height: 115%;
+  padding: 1em;
+}
+
+.menu {
+  width: 7%;
+  padding: 2em;
+}

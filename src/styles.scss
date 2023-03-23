@@ -1,4 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+$principal-font: 'Nunito', sans-serif;
+$principal-color: #E7FFDD;
+
+html, body {
+  height: 100%; }
+
+body {
+   margin: 0;
+   font-family: $principal-font;
+  }
