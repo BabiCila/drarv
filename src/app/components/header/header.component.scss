@@ -1,0 +1,82 @@
+$principal-font: 'Nunito', sans-serif;
+$principal-color: #E7FFDD;
+$font-color: #815537;
+
+header {
+  background-color: $principal-color;
+  width: 100vw;
+  height: 8vh;
+}
+
+.container {
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+    .logo{
+      width: 26%;
+      padding: 1em;
+    }
+    .menu {
+      position: relative;
+
+      .icon {
+      width: 35%;
+      padding: 1.5em;
+      }
+
+      .check {
+        display: none;
+      }
+
+      .list {
+        display: none;
+        position: absolute;
+        top: 16em;
+        background-color: $principal-color;
+        width: 100vw;
+        height: 70vh;
+        top: 3em;
+        right: 0em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        list-style: none;
+          .btn-close {
+            background-color: transparent;
+            border: none;
+            margin-left: 26.3em;
+            .btn-img {
+              width: 1.8em;
+            }
+          }
+      }
+      .check:checked ~ .list {
+        display: inline;
+      }
+      .item {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $font-color;
+        font-weight: 400;
+        font-size: 1.2em;
+        text-align: center;
+        padding: 1em;
+          .logo-list {
+            width: 12em;
+          }
+      }
+      .link {
+        text-decoration: none;
+        list-style-type: none;
+      }
+      .link:visited {
+        color: $font-color
+      }
+    }
+}
+
+
+
+
