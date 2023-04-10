@@ -1,0 +1,27 @@
+$principal-font: 'Nunito', sans-serif;
+$principal-color: #E7FFDD;
+$font-color: #815537;
+
+.about{
+  text-align: center;
+  .dra_img {
+    height: 12em;
+    border-radius: 100%;
+    width: 12em;
+    box-shadow: 20%;
+  }
+  .name{
+    width: 85%;
+    padding-top: 1.5em;
+  }
+
+  .text {
+    color: $font-color;
+    font-family: $principal-font;
+    text-justify: auto;
+    font-size: 0.8em;
+    text-align: justify;
+    padding: 1em;
+  }
+}
+
