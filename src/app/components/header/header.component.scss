@@ -5,26 +5,26 @@ $font-color: #815537;
 header {
   background-color: $principal-color;
   width: 100vw;
-  height: 8vh;
+  height: 10vh;
 }
 
 .container {
   width: 100vw;
-  height: 8vh;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-    .logo{
-      width: 26%;
-      padding: 1em;
+    .logo {
+      width: 28%;
+      padding: 0em 0 0 0.5em;
     }
     .menu {
       position: relative;
 
       .icon {
-      width: 35%;
-      padding: 1.5em;
+      width: 45%;
+      padding: 0.5em 2em 0 0;
       }
 
       .check {
@@ -34,13 +34,13 @@ header {
       .list {
         display: none;
         position: absolute;
-        top: 16em;
+        top: 12em;
         background-color: $principal-color;
         width: 100vw;
-        height: 70vh;
+        height: 90vh;
         top: 3em;
         right: 0em;
-        padding-top: 2em;
+        margin-top: 0;
         padding-bottom: 2em;
         list-style: none;
           .btn-close {
@@ -63,9 +63,13 @@ header {
         font-size: 1.2em;
         text-align: center;
         padding: 1em;
-          .logo-list {
-            width: 12em;
-          }
+      }
+      .item-logo {
+        padding: 0;
+        text-align: center;
+        .logo-list {
+          width: 11.5em;
+        }
       }
       .link {
         text-decoration: none;
