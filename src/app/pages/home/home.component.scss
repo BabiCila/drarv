@@ -1,11 +1,12 @@
-$principal-font: 'Nunito', sans-serif;
-$principal-color: #E7FFDD;
+$default-font: 'Nunito', sans-serif;
+$default-color: #E7FFDD;
 $font-color: #815537;
 
 .about{
   text-align: center;
 
   .dra_img {
+    margin-top: 2em;
     height: 12em;
     border-radius: 100%;
     width: 12em;
@@ -18,7 +19,7 @@ $font-color: #815537;
 
   .text {
     color: $font-color;
-    font-family: $principal-font;
+    font-family: $default-font;
     text-justify: auto;
     font-size: 0.6em;
     text-align: justify;
@@ -38,12 +39,27 @@ $font-color: #815537;
     }
 
     .title {
-      font-family: $principal-font;
+      font-family: $default-font;
       color: $font-color;
       font-size: 0.7em;
     }
   }
 
+}
 
+.areas {
+  background-color: $default-color;
+  display: inline-block;
+  text-align: center;
+
+  .text{
+    font-size: 25px;
+    color: $font-color;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.5em;
+  }
 }
 
