@@ -4,14 +4,15 @@ $font-color: #815537;
 
 .about{
   text-align: center;
+
   .dra_img {
     height: 12em;
     border-radius: 100%;
     width: 12em;
-    box-shadow: 20%;
+    box-shadow: 4px 4px 4px lightgray;
   }
   .name{
-    width: 85%;
+    width: 97%;
     padding-top: 1.5em;
   }
 
@@ -19,9 +20,30 @@ $font-color: #815537;
     color: $font-color;
     font-family: $principal-font;
     text-justify: auto;
-    font-size: 0.8em;
+    font-size: 0.6em;
     text-align: justify;
-    padding: 1em;
+    padding: 1.2em;
   }
+
+  .subtitle {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3em;
+
+    .estrela {
+      width: 6%;
+      padding-right: 0.2em;
+    }
+
+    .title {
+      font-family: $principal-font;
+      color: $font-color;
+      font-size: 0.7em;
+    }
+  }
+
+
 }
 
