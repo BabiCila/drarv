@@ -63,3 +63,10 @@ $font-color: #815537;
   }
 }
 
+.link {
+  color: $font-color;
+  font-family: $default-font;
+  font-weight: 400;
+  font-size: 1em;
+  text-decoration: underline;
+}

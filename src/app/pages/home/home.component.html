@@ -22,8 +22,11 @@
   <p class="text">
     Áreas de atuação
   </p>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
+  <div *ngFor="let card of listaCards">
+    <app-card [card]="card"></app-card>
+  </div>
+  <a class="link">Clique aqui para ver todas as especialidades</a>
+
+
 </section>
 
