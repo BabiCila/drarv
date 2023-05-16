@@ -1,9 +1,9 @@
-$principal-font: 'Nunito', sans-serif;
-$principal-color: #E7FFDD;
+$default-font: 'Nunito', sans-serif;
+$default-color: #E7FFDD;
 $font-color: #815537;
 
 header {
-  background-color: $principal-color;
+  background-color: $default-color;
   width: 100vw;
   height: 10vh;
 }
@@ -35,7 +35,7 @@ header {
         display: none;
         position: absolute;
         top: 12em;
-        background-color: $principal-color;
+        background-color: $default-color;
         width: 100vw;
         height: 90vh;
         top: 3em;
