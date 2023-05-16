@@ -40,6 +40,16 @@ $input-color: #E0E0E0;
       padding: 0.6rem;
     }
   }
+  .btn_form {
+    background-color: $font-color;
+    width: 95%;
+    border: none;
+    border-radius: 0.3em;
+    color: white;
+    font-family: $default-font;
+    font-size: 0.8em;
+    line-height: 2.4em;
+  }
 }
 
 

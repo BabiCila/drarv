@@ -61,12 +61,16 @@ $font-color: #815537;
     text-align: center;
     padding: 1.5em;
   }
+  .link_div {
+    padding: 20px;
+  }
+  .link {
+    color: $font-color;
+    font-family: $default-font;
+    font-weight: 400;
+    font-size: 0.9em;
+    text-decoration: underline;
+  }
 }
 
-.link {
-  color: $font-color;
-  font-family: $default-font;
-  font-weight: 400;
-  font-size: 1em;
-  text-decoration: underline;
-}
+
