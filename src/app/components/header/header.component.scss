@@ -23,7 +23,7 @@ header {
       position: relative;
 
       .icon {
-      width: 45%;
+      width: 95%;
       padding: 0.5em 2em 0 0;
       }
 
@@ -33,6 +33,7 @@ header {
 
       .list {
         display: none;
+        z-index: +2;
         position: absolute;
         top: 12em;
         background-color: $default-color;
