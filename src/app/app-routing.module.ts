@@ -7,15 +7,11 @@ const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'form',
+    redirectTo: 'home',
   },
   {
     path: 'form',
     component: FormComponent
-  },
-  {
-    path: 'home',
-    component: HomeComponent
   }
 ];
 
