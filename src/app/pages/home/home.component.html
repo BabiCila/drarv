@@ -25,8 +25,13 @@
   <div *ngFor="let card of listaCards">
     <app-card [card]="card"></app-card>
   </div>
-  <a class="link">Clique aqui para ver todas as especialidades</a>
-  <app-footer></app-footer>
-
+  <div class="link_div">
+    <a class="link">Clique aqui para ver todas as especialidades</a>
+  </div>
 </section>
-
+<section class="contact">
+  <app-form></app-form>
+</section>
+<section class="footer">
+  <app-footer></app-footer>
+</section>

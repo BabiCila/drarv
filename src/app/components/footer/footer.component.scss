@@ -3,8 +3,10 @@ $default-color: #E7FFDD;
 $font-color: #815537;
 
 .footer {
+  background-color: $default-color;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
 }
 
@@ -37,4 +39,8 @@ $font-color: #815537;
   .img_media{
     padding: 1em;
   }
+
+.map {
+  width: 100%;
+}
 }

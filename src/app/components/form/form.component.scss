@@ -1,0 +1,60 @@
+$default-font: 'Nunito', sans-serif;
+$default-color: #E7FFDD;
+$font-color: #815537;
+$input-color: #E0E0E0;
+
+.contact{
+  background-color: white;
+  padding: 0.5em;
+  text-align: center;
+
+  .title {
+    color: $font-color;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+  }
+
+  .title_form {
+    color: $font-color;
+    font-size: 1rem;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+
+
+    .input {
+      margin: 0.2em;
+      border: none;
+      background-color: $input-color;
+      line-height: 1.5rem;
+      border-radius: 0.3rem;
+    }
+    ::-webkit-input-placeholder  {
+      color: $font-color;
+      font-size: 0.8rem;
+      font-family: $default-font;
+      font-weight: 100;
+      padding: 0.6rem;
+    }
+  }
+
+  .btn {
+    padding-top: 0.5em;
+  }
+
+  .btn_form {
+    background-color: $font-color;
+    width: 98%;
+    border: none;
+    border-radius: 0.3em;
+    color: white;
+    font-family: $default-font;
+    font-size: 0.8em;
+    line-height: 2.4em;
+  }
+}
+
+
