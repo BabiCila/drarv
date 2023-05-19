@@ -1,3 +1,30 @@
+$default-font: 'Nunito', sans-serif;
+$default-color: #E7FFDD;
+$font-color: #815537;
+
 .images {
   width: 100%;
+}
+
+.tilte,
+.subtitle {
+  font-family: $default-font;
+}
+
+.title {
+  font-size: 1.2rem;
+}
+.subtitle {
+  font-size: 0.7rem;
+}
+
+
+.btn_carousel {
+  background-color: $font-color;
+  border-radius: 0.5em;
+  border-style: none;
+  height: 3em;
+  width: 11em;
+  color: white;
+  font-size: 0.7rem;
 }
