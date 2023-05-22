@@ -1,4 +1,8 @@
+
+
 $default-font: 'Nunito', sans-serif;
+$second-font: 'Baloo Bhai 2', cursive;
+$other-font: 'Poppins', sans-serif;
 $default-color: #E7FFDD;
 $font-color: #815537;
 
@@ -6,18 +10,16 @@ $font-color: #815537;
   width: 100%;
 }
 
-.tilte,
-.subtitle {
-  font-family: $default-font;
-}
-
 .title {
+  font-family: $second-font;
+  font-weight: 700;
   font-size: 1.2rem;
 }
+
 .subtitle {
+  font-family: $other-font;
   font-size: 0.7rem;
 }
-
 
 .btn_carousel {
   background-color: $font-color;
