@@ -23,7 +23,7 @@ $font-color: #815537;
 
 .text {
   color: $font-color;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 100;
   padding: 0 0.8em 1em 0.8em;
   margin: 0;
@@ -38,9 +38,11 @@ $font-color: #815537;
 .socialmedia {
   .img_media{
     padding: 1em;
+    width: 4em;
   }
+}
 
 .map {
   width: 100%;
 }
-}
+
