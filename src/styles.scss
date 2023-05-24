@@ -1,15 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 
-$principal-font: 'Nunito', sans-serif;
-$principal-color: #E7FFDD;
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+$default-font: 'Nunito', sans-serif;
+$secondary-font: 'Baloo Bhai 2';
+$default-color: #E7FFDD;
 
 html, body {
   height: 100%; }
 
 body {
    margin: 0;
-   font-family: $principal-font;
-  }
+   font-family: $default-font;
+}
 
-/* Importing Bootstrap SCSS file. */
-@import 'bootstrap/scss/bootstrap';
