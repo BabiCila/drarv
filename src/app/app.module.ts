@@ -13,6 +13,8 @@ import { MessageComponent } from './components/message/message.component';
 import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DrarvComponent } from './pages/drarv/drarv.component';
+import { AreasComponent } from './pages/areas/areas.component';
+import { ContatoComponent } from './pages/contato/contato.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { DrarvComponent } from './pages/drarv/drarv.component';
     FooterComponent,
     FormComponent,
     MessageComponent,
-    DrarvComponent
+    DrarvComponent,
+    AreasComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,

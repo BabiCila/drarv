@@ -5,9 +5,11 @@ import { HomeComponent } from './pages/home/home.component';
 import { DrarvComponent } from './pages/drarv/drarv.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { AreasComponent } from './pages/areas/areas.component';
+import { ContatoComponent } from './pages/contato/contato.component';
 
 const routes: Routes = [
-  
+
   {
     path: '',
     redirectTo: 'home',
@@ -29,7 +31,14 @@ const routes: Routes = [
     path: 'carousel',
     component: CarouselComponent
   },
-
+  {
+    path: 'areas',
+    component: AreasComponent
+  },
+  {
+    path: 'contato',
+    component: ContatoComponent
+  }
 
 ];
 

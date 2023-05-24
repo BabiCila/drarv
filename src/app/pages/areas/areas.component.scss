@@ -1,0 +1,18 @@
+$default-font: 'Nunito', sans-serif;
+$default-color: #E7FFDD;
+$font-color: #815537;
+
+.title {
+  font-size: 25px;
+  color: $font-color;
+  font-size: 1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1.5em;
+}
+
+.areas {
+  text-align: center;
+  background-color: white;
+}
