@@ -1,0 +1,42 @@
+$default-font: 'Nunito', sans-serif;
+$second-color: #C4E1B8;
+$font-color: #815537;
+
+.container {
+  background-color: $second-color;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4em;
+  .logo {
+    width: 80%;
+  }
+
+  .dra {
+    width: 75%;
+    height: 43%;
+    position: absolute;
+    top: 39%;
+    border-radius: 2%;
+    box-shadow: -13px 14px 1.5px 2px $font-color, 0px 1px 10px darkgray;
+  }
+
+}
+
+.about {
+  padding: 0.9em;
+  color: $font-color;
+  .title {
+    padding-top: 12em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
+
+  .text {
+    text-align: justify;
+    font-size: 0.8em;
+    padding: 0,5em;
+  }
+}
