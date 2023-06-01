@@ -40,3 +40,21 @@ $font-color: #815537;
     padding: 0,5em;
   }
 }
+
+.titles {
+  background-color: $font-color;
+  display: block;
+  text-align: center;
+  padding: 1.2em;
+  .star {
+    width: 20%;
+    padding: 0.7em;
+  }
+  .title {
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 0.8em;
+    margin-bottom: 0;
+  }
+}
