@@ -1,28 +1,30 @@
 <header class="header">
   <nav class="container">
-    <img src="../../../assets/img/logo.svg" class="logo" alt="Brand's RV">
+    <div class="img-logo">
+      <img src="../../../assets/img/logo.svg" class="logo" alt="Brand's RV">
+    </div>
     <div class="menu">
       <input type="checkbox" id="menu" class="check">
       <label for="menu">
-        <img src="../../../assets/img/menu-icon.svg" class="icon" alt="menu icon">
+        <img src="../../../assets/img/menu-icon.svg" (click)="toggleMenu()" class="icon" alt="menu icon">
       </label>
-      <ul class="list" id="menu">
-        <li class="item">
-          <button type="button" routerLink="" class="btn-close"><img src="../../../assets/img/x.svg" class="btn-img"></button>
+      <ul class="list" id="menu" [style.display]="showMenu ? 'inline' : 'none'">
+        <li class="item close-btn" (click)="toggleMenu()">
+          <a routerLink="" id="close" class="link">X</a>
         </li>
         <li class="item-logo">
           <img src="../../../assets/img/logo.svg" class="logo-list" alt="Brand's RV">
         </li>
-        <li class="item">
+        <li class="item" (click)="toggleMenu()">
           <a class="link" routerLink="">Home</a>
         </li>
-        <li class="item">
+        <li class="item" (click)="toggleMenu()">
           <a class="link" routerLink="/drarv">Drª. Rafaela Vasconcelos</a>
         </li>
-        <li class="item">
+        <li class="item" (click)="toggleMenu()">
           <a class="link" routerLink="/areas">Áreas de atuação</a>
         </li>
-        <li class="item">
+        <li class="item" (click)="toggleMenu()">
           <a class="link" routerLink="/contato">Contato</a>
         </li>
       </ul>

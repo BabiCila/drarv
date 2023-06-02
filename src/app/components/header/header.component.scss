@@ -5,7 +5,7 @@ $font-color: #815537;
 header {
   background-color: $default-color;
   width: 100vw;
-  height: 10vh;
+  height: 8.5vh;
 }
 
 .container {
@@ -16,15 +16,13 @@ header {
   align-items: center;
 
     .logo {
-      width: 28%;
-      padding: 0em 0 0 0.5em;
+      width: 100%;
     }
     .menu {
       position: relative;
 
       .icon {
-      width: 95%;
-      padding: 0.5em 2em 0 0;
+        padding: 0em 2em 0 0;
       }
 
       .check {
@@ -38,24 +36,17 @@ header {
         top: 12em;
         background-color: $default-color;
         width: 100vw;
-        height: 90vh;
-        top: 3em;
-        right: 0em;
+        height: 75vh;
+        top: 2em;
+        right: -1em;
         margin-top: 0;
         padding-bottom: 2em;
         list-style: none;
-          .btn-close {
-            background-color: transparent;
-            border: none;
-            margin-left: 26.3em;
-            .btn-img {
-              width: 1.8em;
-            }
-          }
       }
       .check:checked ~ .list {
         display: inline;
       }
+
       .item {
         text-decoration: none;
         text-transform: uppercase;
@@ -65,17 +56,27 @@ header {
         text-align: center;
         padding: 1em;
       }
+
       .item-logo {
         padding: 0;
         text-align: center;
+
         .logo-list {
           width: 11.5em;
         }
       }
+
+      .close-btn {
+        text-align: end;
+        padding: 1em 1.8em 0 0;
+        font-size: 2em;
+      }
+
       .link {
         text-decoration: none;
         list-style-type: none;
       }
+
       .link:visited {
         color: $font-color
       }
