@@ -43,8 +43,13 @@ header {
         padding-bottom: 2em;
         list-style: none;
       }
+
       .check:checked ~ .list {
         display: inline;
+      }
+
+      .menu_desktop {
+        display: none;
       }
 
       .item {
@@ -83,6 +88,13 @@ header {
     }
 }
 
+@media screen and (min-width: 900px) {
 
+  .menu_desktop {
+    display: inline;
+  }
 
-
+  .icon {
+    display: none;
+  }
+}

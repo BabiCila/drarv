@@ -8,6 +8,14 @@
       <label for="menu">
         <img src="../../../assets/img/menu-icon.svg" (click)="toggleMenu()" class="icon" alt="menu icon">
       </label>
+      <div>
+        <ul class="menu_desktop">
+          <a class="link" routerLink="">Home</a>
+          <a class="link" routerLink="/drarv">Drª. Rafaela Vasconcelos</a>
+          <a class="link" routerLink="/areas">Áreas de atuação</a>
+          <a class="link" routerLink="/contato">Contato</a>
+        </ul>
+      </div>
       <ul class="list" id="menu" [style.display]="showMenu ? 'inline' : 'none'">
         <li class="item close-btn" (click)="toggleMenu()">
           <a routerLink="" id="close" class="link">X</a>
