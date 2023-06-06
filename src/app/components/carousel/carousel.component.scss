@@ -22,11 +22,18 @@ $font-color: #815537;
 }
 
 .btn_carousel {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   background-color: $font-color;
   border-radius: 0.5em;
   border-style: none;
   height: 3em;
-  width: 11em;
+  width: 10em;
   color: white;
   font-size: 0.7rem;
+  text-decoration-line: none;
+  text-align: center;
 }
+
+

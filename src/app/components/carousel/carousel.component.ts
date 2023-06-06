@@ -9,6 +9,10 @@ import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 })
 
 export class CarouselComponent {
-    images = [`../../../assets/img/carousel1.svg`,`../../../assets/img/carousel2.svg`,`../../../assets/img/carousel3.svg`]
+    images = [
+    `../../../assets/img/carousel1.svg`,
+    `../../../assets/img/carousel2.svg`,
+    `../../../assets/img/carousel3.svg`
+  ]
 }
 
