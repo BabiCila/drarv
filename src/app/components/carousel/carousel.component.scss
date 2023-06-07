@@ -36,4 +36,13 @@ $font-color: #815537;
   text-align: center;
 }
 
+@media screen and (min-width: 960px) {
 
+  .picsum-img-wrapper {
+    height: 70vh;
+  }
+
+  img {
+    width: 100vw;
+  }
+}

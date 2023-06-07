@@ -12,7 +12,10 @@ export class CarouselComponent {
     images = [
     `../../../assets/img/carousel1.svg`,
     `../../../assets/img/carousel2.svg`,
-    `../../../assets/img/carousel3.svg`
+    `../../../assets/img/carousel3.svg`,
+    `../../../assets/img/carousel/consulta-carousel.svg.svg`,
+    `../../../assets/img/carousel/atendimento-carousel.svg.svg`,
+    `../../../assets/img/carousel/areas-carousel.svg.svg`
   ]
 }
 
