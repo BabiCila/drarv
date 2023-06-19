@@ -73,4 +73,20 @@ $font-color: #815537;
   }
 }
 
+@media screen and (min-width: 960px) {
 
+  .about {
+    display: inline-flex;
+    align-items: center;
+    justify-content:flex-end;
+  }
+
+  .images {
+    padding: 1em;
+  }
+
+  .texts {
+    padding: 1em;
+    width: 65%;
+  }
+}

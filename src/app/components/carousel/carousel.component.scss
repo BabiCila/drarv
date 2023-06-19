@@ -6,6 +6,12 @@ $other-font: 'Poppins', sans-serif;
 $default-color: #E7FFDD;
 $font-color: #815537;
 
+.desktop-carousel{
+  display: none;
+}
+.mobile-carousel {
+  display: inline;
+}
 .images {
   width: 100%;
 }
@@ -41,8 +47,47 @@ $font-color: #815537;
   .picsum-img-wrapper {
     height: 70vh;
   }
+  .carousel-caption {
+    top: 20%;
+    text-align: left;
+  }
 
   img {
     width: 100vw;
+  }
+
+  .mobile-carousel {
+    display: none;
+  }
+  .desktop-carousel{
+    display:inline-block;
+  }
+
+  .title {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+
+  .subtitle {
+    font-family: $other-font;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .btn_carousel {
+    height: 3em;
+    width: 9em;
+    font-size: 1rem;
+  }
+  .picsum-img-wrapper {
+    height: 56vh;
+  }
+
+  .carousel-caption {
+    height: 50%;
+  }
+
+  .carousel-indicators {
+    top: 10%;
   }
 }

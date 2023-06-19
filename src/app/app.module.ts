@@ -15,7 +15,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DrarvComponent } from './pages/drarv/drarv.component';
 import { AreasComponent } from './pages/areas/areas.component';
 import { ContatoComponent } from './pages/contato/contato.component';
-import { CarouselDesktopComponent } from './components/carousel-desktop/carousel-desktop.component';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +30,6 @@ import { CarouselDesktopComponent } from './components/carousel-desktop/carousel
     DrarvComponent,
     AreasComponent,
     ContatoComponent,
-    CarouselDesktopComponent
   ],
   imports: [
     BrowserModule,
