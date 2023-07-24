@@ -97,7 +97,7 @@ $font-color: #815537;
         width: 100%;
         padding: 1.5em 1.5em;
       }
-      
+
       .subtitle {
         display: flex;
         justify-content: start;
@@ -112,16 +112,14 @@ $font-color: #815537;
       .text {
         font-size: 1.5em;
       }
-
-
-
     }
-
-
   }
 
-
-
+  .areas {
+    .text{
+      font-size: 3.5rem;
+    }
+  }
 
 
 }
