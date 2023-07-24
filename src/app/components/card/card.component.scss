@@ -42,6 +42,11 @@ $font-color: #815537;
 
 @media screen and (min-width: 1024px) {
   .card {
-    min-width: 100vw
+    width: 100vw;
+
+    .area-text {
+      width: 20%;
+    }
   }
+
 }
