@@ -90,7 +90,7 @@ header {
   display: none;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1024px) {
 
   .header {
     height: 12vh;
@@ -100,14 +100,14 @@ header {
   }
 
   .logo {
-    width: 140%;
+    width: 200%;
     padding-left: 0em;
 
   }
 
   .menu_desktop {
     display: contents;
-
+    font-size: 1.4em;
   }
 
   .icon {
