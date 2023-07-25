@@ -20,10 +20,13 @@ $input-color: #E0E0E0;
   }
 
   .form {
-    display: flex;
-    flex-direction: column;
+    display: block;
     padding: 0.5em;
 
+    .first_fields,
+    .second_fields {
+      display: grid;
+    }
 
     .input {
       margin: 0.2em;
@@ -57,4 +60,59 @@ $input-color: #E0E0E0;
   }
 }
 
+@media screen and (min-width: 1024px) {
 
+  .contact {
+
+    margin: 5.5em;
+
+    .title {
+      font-size: 3rem;
+      padding: 0;
+    }
+    .title_form {
+      font-size: 2.5rem;
+      text-align: left;
+      padding: 0.5em;
+    }
+
+    .form {
+      display: grid;
+      padding: 0.5em;
+
+      .first_fields {
+        display: inline-flex;
+      }
+
+      .input {
+        font-size: 2.2rem;
+        border-radius: 15px;
+        margin: 0.3em;
+      }
+
+      ::-webkit-input-placeholder  {
+        color: $font-color;
+        font-size: 1.5rem;
+        font-family: $default-font;
+        font-weight: 100;
+        padding: 0.6rem;
+      }
+
+      #nome,
+      #email {
+        width: 50%;
+      }
+    }
+
+    .btn {
+      text-align: end;
+    }
+
+    .btn_form {
+      width: 15%;
+      border-radius: 0.7em;
+      font-size: 1.3em;
+    }
+  }
+
+}
