@@ -20,10 +20,12 @@
   </div>
 </section>
 <section class="areas">
-  <p class="text">
-    Áreas de atuação
-  </p>
-  <div *ngFor="let card of listaCards">
+  <div class="text">
+    <p class="title">
+      Áreas de atuação
+    </p>
+  </div>
+  <div class="card-box" *ngFor="let card of listaCards">
     <app-card [card]="card"></app-card>
   </div>
   <div class="link_div">

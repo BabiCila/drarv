@@ -42,10 +42,11 @@ $font-color: #815537;
 
 @media screen and (min-width: 1024px) {
   .card {
-    width: 100vw;
+    width: 24vw;
 
     .area-text {
-      width: 20%;
+      width: 100%;
+      align-self: flex-end;
     }
   }
 

@@ -52,7 +52,7 @@ $font-color: #815537;
   display: inline-block;
   text-align: center;
 
-  .text{
+  .title{
     font-size: 25px;
     color: $font-color;
     font-size: 1em;
@@ -116,8 +116,24 @@ $font-color: #815537;
   }
 
   .areas {
-    .text{
-      font-size: 3.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .card-box {
+      padding: 3em;
+    }
+
+    .text {
+      margin: 0 14em;
+    }
+    .title{
+      font-size: 3rem;
+      padding: 1em;
+    }
+    .link {
+      font-size: 1.5rem;
+      padding: 4em;
     }
   }
 
