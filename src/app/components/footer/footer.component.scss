@@ -52,3 +52,36 @@ $font-color: #815537;
   width: 100%;
 }
 
+@media screen and (min-width: 1024px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .image_footer {
+    width: 50%;
+  }
+
+  .img_place {
+    width: 80%;
+  }
+
+  .texts {
+    width: 50%
+  }
+
+  .text {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .socialmedia {
+    text-align: left;
+    width: 5em;
+  }
+}
