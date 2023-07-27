@@ -4,11 +4,15 @@ $font-color: #815537;
 
 .footer {
   background-color: $default-color;
+}
+
+.content {
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
 }
+
 .title_footer {
   padding: 1em;
 }
@@ -25,13 +29,26 @@ $font-color: #815537;
 
 .img_place {
   width: 90%;
+  border-radius: 8px;
 }
 
-.text {
+.adress_title {
+  display: none;
+}
+
+.adress_place {
+  color: $font-color;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0 0.8em 0 0.8em;
+  margin: 0;
+}
+
+.adress {
   color: $font-color;
   font-size: 0.8rem;
   font-weight: 100;
-  padding: 0 0.8em 1em 0.8em;
+  padding: 0 0.8em 0 0.8em;
   margin: 0;
 }
 
@@ -53,10 +70,12 @@ $font-color: #815537;
 }
 
 @media screen and (min-width: 1024px) {
-  .footer {
+
+
+  .content{
     display: flex;
     flex-direction: row;
-    padding: 2em;
+    padding: 7em 4em;
   }
 
   .title {
@@ -68,20 +87,45 @@ $font-color: #815537;
   }
 
   .img_place {
-    width: 80%;
+    width: 100%;
   }
 
   .texts {
-    width: 50%
+    width: 50%;
+    text-align: left;
+    padding: 1em;
+
+    .title_adress {
+      text-align: left;
+      font-size: 1.5rem;
+    }
   }
 
-  .text {
+  .adress_title {
+    display: inline;
+    color: $font-color;
+    font-size: 3rem;
+    font-weight: 100;
+    margin-left: 0.3em;
+  }
+
+  .adress_place {
+    text-align: left;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 0 0.8em 0 0.8em;
+  }
+
+  .adress {
     font-size: 1.5rem;
     text-align: left;
   }
 
   .socialmedia {
-    text-align: left;
-    width: 5em;
+    display: flex;
+    flex-direction: row;
+    .img_media {
+      width: 5em;
+    }
   }
 }
