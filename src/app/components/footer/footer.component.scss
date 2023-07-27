@@ -9,11 +9,17 @@ $font-color: #815537;
   text-align: center;
   align-items: center;
 }
+.title_footer {
+  padding: 1em;
+}
 
 .title {
   color: $font-color;
   font-size: 1.5rem;
   font-weight: 400;
+
+}
+.image_footer {
   padding: 1em;
 }
 
