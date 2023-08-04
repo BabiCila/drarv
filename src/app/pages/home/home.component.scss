@@ -95,7 +95,7 @@ $font-color: #815537;
 
       .name {
         width: 100%;
-        padding: 1.5em 1.5em;
+        padding: 1.5em 0.5em;
       }
 
       .subtitle {
@@ -105,38 +105,42 @@ $font-color: #815537;
         padding: 1em 2em 1em 3em;
 
         .title {
-          font-size: 1.6em;
+          font-size: 1.4em;
         }
       }
 
       .text {
-        font-size: 1.5em;
+        font-size: 1.3em;
+        padding: 1.6em;
       }
     }
   }
 
   .areas {
-    display: flex;
-    flex-wrap: wrap;
+    display: flow;
     justify-content: center;
 
+    .text{
+      display: inline;
+    }
+
     .card-box {
+      display: initial;
       padding: 3em;
     }
 
-    .text {
-      margin: 0 14em;
-    }
     .title{
-      font-size: 3rem;
-      padding: 1em;
+      font-size: 2.2rem;
+      padding: 2em;
     }
 
     .link_div {
-      padding-bottom: 4em;
+      padding: 6em 4em;
     }
+
     .link {
       font-size: 1.5rem;
+      padding: 2em
 
     }
   }

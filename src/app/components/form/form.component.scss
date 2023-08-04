@@ -21,7 +21,7 @@ $input-color: #E0E0E0;
 
   .form {
     display: block;
-    padding: 0.5em;
+    padding: 0.5em 1em;
 
     .first_fields,
     .second_fields {
@@ -32,7 +32,7 @@ $input-color: #E0E0E0;
       margin: 0.2em;
       border: none;
       background-color: $input-color;
-      line-height: 1.5rem;
+      line-height: 2rem;
       border-radius: 0.3rem;
     }
     ::-webkit-input-placeholder  {
@@ -45,7 +45,8 @@ $input-color: #E0E0E0;
   }
 
   .btn {
-    padding-top: 0.5em;
+    padding: 0.5em 0;
+    width: 100%;
   }
 
   .btn_form {
@@ -63,15 +64,14 @@ $input-color: #E0E0E0;
 @media screen and (min-width: 1024px) {
 
   .contact {
-
-    margin: 5.5em;
+    margin: 2em 5.5em;
 
     .title {
-      font-size: 3rem;
+      font-size: 2.2rem;
       padding: 0;
     }
     .title_form {
-      font-size: 2.5rem;
+      font-size: 2rem;
       text-align: left;
       padding: 0.5em;
     }
@@ -87,7 +87,6 @@ $input-color: #E0E0E0;
       .input {
         font-size: 2.2rem;
         border-radius: 15px;
-        margin: 0.3em;
       }
 
       ::-webkit-input-placeholder  {
