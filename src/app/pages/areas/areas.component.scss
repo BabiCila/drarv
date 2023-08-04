@@ -16,3 +16,24 @@ $font-color: #815537;
   text-align: center;
   background-color: white;
 }
+
+@media screen and (min-width: 1024px) {
+  .areas {
+    display: flow;
+    justify-content: center;
+
+    .text{
+      display: inline;
+
+      .title {
+        font-size: 2.2rem;
+      }
+    }
+
+    .card-box {
+      display: initial;
+      padding: 3em;
+    }
+  }
+
+}
