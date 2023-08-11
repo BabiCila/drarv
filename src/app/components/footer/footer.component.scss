@@ -73,11 +73,14 @@ $font-color: #815537;
 
 .footer {
   margin-top: 8em;
+  display: inline-block;
 }
   .content{
     display: flex;
     flex-direction: row;
-    padding: 7em 4em;
+    align-items: center;
+    margin-left: 4em;
+    padding: 4em 4em;
   }
 
   .title {
