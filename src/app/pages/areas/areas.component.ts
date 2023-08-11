@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './areas.component.html',
   styleUrls: ['./areas.component.scss']
 })
+
+
 export class AreasComponent {
   listaCards = [
     {
@@ -22,6 +24,9 @@ export class AreasComponent {
       texto: 'O clareamento dental é o procedimento estético conservador para clarear os dentes de maneira eficaz e segura. Autoconfiança com seu sorriso também é saúde!',
       imagem: 'clareamento-img'
     },
+  ];
+
+  listaCards2 = [
     {
       titulo: 'Restauração',
       texto: 'A restauração dentaria é necessária quando um dente está acometido por lesão cariosa (cárie); fratura ou qualquer outro motivo que tenha levado à perda de alguma parte do dente, e tem o objetivo de obter seu formato e funções normais.',
@@ -37,6 +42,6 @@ export class AreasComponent {
       texto: 'A extração dentária é indicada quando não é possível salvar algum dente por motivos de cárie extensa, fraturas ou dentes sisos que possam gerar prejuízo no paciente. Mas fique tranquilo, é um procedimento realizado com anestesia local! ',
       imagem: 'cirurgia-img'
     }
-  ];
+  ]
 
 }

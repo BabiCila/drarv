@@ -71,7 +71,9 @@ $font-color: #815537;
 
 @media screen and (min-width: 1024px) {
 
-
+.footer {
+  margin-top: 8em;
+}
   .content{
     display: flex;
     flex-direction: row;

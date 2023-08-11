@@ -19,20 +19,21 @@ $font-color: #815537;
 
 @media screen and (min-width: 1024px) {
   .areas {
-    display: flow;
-    justify-content: center;
+    display: inline-block;
 
     .text{
       display: inline;
 
       .title {
         font-size: 2.2rem;
+        padding: 1.5em 0 0 0;
+        margin-bottom: 0;
       }
     }
 
     .card-box {
-      display: initial;
-      padding: 3em;
+      display: inline-block;
+      padding: 4em 2em;
     }
   }
 
