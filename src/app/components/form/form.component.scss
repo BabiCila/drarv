@@ -67,11 +67,11 @@ $input-color: #E0E0E0;
     margin: 2em 5.5em;
 
     .title {
-      font-size: 2.2rem;
+      font-size: 2rem;
       padding: 0;
     }
     .title_form {
-      font-size: 2rem;
+      font-size: 1.8rem;
       text-align: left;
       padding: 0.5em;
     }
@@ -91,7 +91,7 @@ $input-color: #E0E0E0;
 
       ::-webkit-input-placeholder  {
         color: $font-color;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-family: $default-font;
         font-weight: 100;
         padding: 0.6rem;
@@ -108,9 +108,10 @@ $input-color: #E0E0E0;
     }
 
     .btn_form {
-      width: 15%;
+      width: 12%;
       border-radius: 0.7em;
-      font-size: 1.3em;
+      font-size: 1.2em;
+      margin-right: 0.3em;
     }
   }
 

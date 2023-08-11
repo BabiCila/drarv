@@ -72,23 +72,25 @@ $font-color: #815537;
 @media screen and (min-width: 1024px) {
 
 .footer {
-  margin-top: 8em;
+  margin-top: 2em;
   display: inline-block;
 }
   .content{
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     align-items: center;
-    margin-left: 4em;
     padding: 4em 4em;
   }
 
-  .title {
+  .title_footer{
     display: none;
+    font-size: 2rem;
   }
 
   .image_footer {
-    width: 50%;
+    width: 42%;
+    padding: 1em 0;
   }
 
   .img_place {
@@ -99,30 +101,25 @@ $font-color: #815537;
     width: 50%;
     text-align: left;
     padding: 1em;
-
-    .title_adress {
-      text-align: left;
-      font-size: 1.5rem;
-    }
   }
 
   .adress_title {
     display: inline;
     color: $font-color;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 100;
-    margin-left: 0.3em;
+    padding-left: 0.4em;
   }
 
   .adress_place {
     text-align: left;
     font-weight: 700;
     font-size: 1.5rem;
-    padding: 0 0.8em 0 0.8em;
+    padding-left: 0.6em;
   }
 
   .adress {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: left;
   }
 
@@ -130,7 +127,7 @@ $font-color: #815537;
     display: flex;
     flex-direction: row;
     .img_media {
-      width: 5em;
+      width: 4em;
     }
   }
 }

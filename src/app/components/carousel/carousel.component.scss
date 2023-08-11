@@ -46,7 +46,7 @@ img {
 @media screen and (min-width: 1024px) {
 
   .picsum-img-wrapper {
-    height: 70vh;
+    height: 100vh;
   }
   .carousel-caption {
     top: 20%;
@@ -65,19 +65,19 @@ img {
   }
 
   .title {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     margin-bottom: 0;
   }
 
   .subtitle {
     font-family: $other-font;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
   }
 
   .btn_carousel {
     height: 3em;
-    width: 9em;
+    width: 8em;
     font-size: 1rem;
   }
 
