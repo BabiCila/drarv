@@ -72,7 +72,7 @@ $font-color: #815537;
 @media screen and (min-width: 1024px) {
 
 .footer {
-  margin-top: 2em;
+  margin-top: 5em;
   display: inline-block;
 }
   .content{
@@ -85,7 +85,7 @@ $font-color: #815537;
 
   .title_footer{
     display: none;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .image_footer {
@@ -106,7 +106,7 @@ $font-color: #815537;
   .adress_title {
     display: inline;
     color: $font-color;
-    font-size: 2rem;
+    font-size: 1.8rem !important;
     font-weight: 100;
     padding-left: 0.4em;
   }
@@ -114,7 +114,7 @@ $font-color: #815537;
   .adress_place {
     text-align: left;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-left: 0.6em;
   }
 

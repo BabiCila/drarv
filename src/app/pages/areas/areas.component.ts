@@ -16,12 +16,12 @@ export class AreasComponent {
     },
     {
       titulo: 'Odontopediatria',
-      texto: 'Área da odontologia voltada para o cuidado da saúde bucal dos bebês, crianças e adolescentes, com tratamentos preventivos e interceptativos durante o período de troca dos dentes decíduos (dentes de leite) para os dentes permanentes. ',
+      texto: 'Área dedicada ao cuidado da saúde bucal dos bebês, crianças e adolescentes, com tratamentos preventivos e interceptativos durante o período de troca dos dentes. ',
       imagem: 'odonto-img'
     },
     {
       titulo: 'Clareamento',
-      texto: 'O clareamento dental é o procedimento estético conservador para clarear os dentes de maneira eficaz e segura. Autoconfiança com seu sorriso também é saúde!',
+      texto: 'O clareamento dental é o procedimento estético conservador para clarear os dentes de maneira eficaz e segura. Autoconfiança com seu sorriso é saúde!',
       imagem: 'clareamento-img'
     },
   ];
