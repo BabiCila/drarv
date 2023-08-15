@@ -93,15 +93,16 @@ header {
 @media screen and (min-width: 1024px) {
 
   .header {
-    height: 12vh;
+    height: 13vh;
   }
   .container {
-    height: 12vh;
+    height: 13vh;
+    margin: 0;
   }
 
   .logo {
-    width: 150%;
-    padding-left: 0em;
+    width: 140%;
+    padding-left: 3em;
 
   }
 

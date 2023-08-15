@@ -120,6 +120,7 @@ $font-color: #815537;
   .areas {
     display: flow;
     justify-content: center;
+    height: 100%;
 
     .text{
       display: inline;
@@ -127,7 +128,7 @@ $font-color: #815537;
 
     .card-box {
       display: initial;
-      padding: 1em;
+      padding: 2em;
     }
 
     .title{
@@ -137,7 +138,7 @@ $font-color: #815537;
     }
 
     .link_div {
-      padding: 6em 4em 5em 4em;
+      padding: 15em 4em 5em 4em;
     }
 
     .link {
@@ -146,6 +147,5 @@ $font-color: #815537;
 
     }
   }
-
 
 }

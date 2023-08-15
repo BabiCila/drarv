@@ -20,6 +20,7 @@ $font-color: #815537;
 @media screen and (min-width: 1024px) {
   .areas {
     display: inline-block;
+    height: 160vh;
 
     .text{
       display: inline;
@@ -34,7 +35,7 @@ $font-color: #815537;
 
     .card-box {
       display: inline-block;
-      padding: 2em 1em;
+      padding: 4em 2.2em;
     }
   }
 

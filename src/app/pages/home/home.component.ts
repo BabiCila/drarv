@@ -15,7 +15,7 @@ export class HomeComponent {
     },
     {
       titulo: 'Odontopediatria',
-      texto: 'Área da odontologia voltada para o cuidado da saúde bucal dos bebês, crianças e adolescentes, com tratamentos preventivos e interceptativos durante o período de troca dos dentes.',
+      texto: 'Área dedicada ao cuidado da saúde bucal dos bebês, crianças e adolescentes, com tratamentos preventivos e interceptativos durante o período de troca dos dentes.',
       imagem: 'odonto-img'
     },
     {
