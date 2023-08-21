@@ -15,9 +15,7 @@ header {
   justify-content: space-between;
   align-items: center;
 
-    .logo {
-      width: 100%;
-    }
+
     .menu {
       position: relative;
 
@@ -46,10 +44,6 @@ header {
 
       .check:checked ~ .list {
         display: inline;
-      }
-
-      .menu_desktop {
-        display: none;
       }
 
       .item {
@@ -88,13 +82,41 @@ header {
     }
 }
 
-@media screen and (min-width: 900px) {
+.logo {
+  width: 100%;
+}
+
+.menu_desktop {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .header {
+    height: 13vh;
+  }
+  .container {
+    height: 13vh;
+    margin: 0;
+  }
+
+  .logo {
+    width: 140%;
+    padding-left: 3em;
+
+  }
 
   .menu_desktop {
-    display: inline;
+    display: contents;
+    font-size: 1.2em;
   }
 
   .icon {
     display: none;
+  }
+
+  .link {
+    padding: 1.5em;
+    text-transform: uppercase;
   }
 }

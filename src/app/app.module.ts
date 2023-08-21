@@ -16,6 +16,7 @@ import { DrarvComponent } from './pages/drarv/drarv.component';
 import { AreasComponent } from './pages/areas/areas.component';
 import { ContatoComponent } from './pages/contato/contato.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +29,7 @@ import { ContatoComponent } from './pages/contato/contato.component';
     MessageComponent,
     DrarvComponent,
     AreasComponent,
-    ContatoComponent
+    ContatoComponent,
   ],
   imports: [
     BrowserModule,

@@ -2,34 +2,39 @@
   <h2 class="title">Contato</h2>
   <p class="title_form">Fale Conosco</p>
   <form class="form" id="formulario" #f="ngForm" (ngSubmit)="enviar(f)">
-    <input name="nome" id="nome" class="input" placeholder="Nome" ngModel required minlength="2" #nome="ngModel">
-    <div *ngIf="(nome?.invalid && nome?.touched) || nome?.dirty">
-      <app-message *ngIf="nome?.errors?.['required']" mensagem="O campo de nome deve ser preenchido."></app-message>
-      <app-message *ngIf="nome?.errors?.['minlength']"
-        mensagem="O campo deve ter no mínimo 2 caracteres."></app-message>
+    <div class="first_fields">
+      <input name="nome" id="nome" class="input" placeholder="Nome" ngModel required minlength="2" #nome="ngModel">
+      <div *ngIf="(nome?.invalid && nome?.touched) || nome?.dirty">
+        <app-message *ngIf="nome?.errors?.['required']" mensagem="O campo de nome deve ser preenchido."></app-message>
+        <app-message *ngIf="nome?.errors?.['minlength']"
+          mensagem="O campo deve ter no mínimo 2 caracteres."></app-message>
+      </div>
+      <input name="email" id="email" class="input" placeholder="Email" ngModel required #email="ngModel"
+        pattern="^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$">
+      <div *ngIf="(email?.invalid && email?.touched) || email?.dirty">
+        <app-message *ngIf="email?.errors?.['required']" mensagem="O campo de email deve ser preenchido."></app-message>
+        <app-message *ngIf="email?.errors?.['pattern']"
+          mensagem="O campo de email deve seguir este padrão: 'exemplo@dominio.com'"></app-message>
+      </div>
     </div>
-    <input name="email" id="email" class="input" placeholder="Email" ngModel required #email="ngModel"
-      pattern="^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$">
-    <div *ngIf="(email?.invalid && email?.touched) || email?.dirty">
-      <app-message *ngIf="email?.errors?.['required']" mensagem="O campo de email deve ser preenchido."></app-message>
-      <app-message *ngIf="email?.errors?.['pattern']"
-        mensagem="O campo de email deve seguir este padrão: 'exemplo@dominio.com'"></app-message>
+    <div class="second_fields">
+      <input name="subject" id="subject" class="input" placeholder="Assunto" ngModel required minlength="2" #subject="ngModel">
+      <div *ngIf="(subject?.invalid && subject?.touched) || subject?.dirty">
+        <app-message *ngIf="subject?.errors?.['required']"
+          mensagem="O campo de assunto deve ser preenchido."></app-message>
+        <app-message *ngIf="subject?.errors?.['minlength']"
+          mensagem="O campo deve ter no mínimo 2 caracteres."></app-message>
+      </div>
+      <textarea name="message" id="message" class="input" type="text" rows="5" placeholder="Mensagem" ngModel required minlength="3"
+        #message="ngModel"></textarea>
+      <div *ngIf="(message?.invalid && message?.touched) || message?.dirty">
+        <app-message *ngIf="message?.errors?.['required']"
+          mensagem="O campo de mensagem deve ser preenchido."></app-message>
+        <app-message *ngIf="message?.errors?.['minlength']"
+          mensagem="O campo deve ter no mínimo 2 caracteres."></app-message>
+      </div>
     </div>
-    <input name="subject" id="subject" class="input" placeholder="Assunto" ngModel required minlength="2" #subject="ngModel">
-    <div *ngIf="(subject?.invalid && subject?.touched) || subject?.dirty">
-      <app-message *ngIf="subject?.errors?.['required']"
-        mensagem="O campo de assunto deve ser preenchido."></app-message>
-      <app-message *ngIf="subject?.errors?.['minlength']"
-        mensagem="O campo deve ter no mínimo 2 caracteres."></app-message>
-    </div>
-    <textarea name="message" id="message" class="input" type="text" rows="5" placeholder="Mensagem" ngModel required minlength="3"
-      #message="ngModel"></textarea>
-    <div *ngIf="(message?.invalid && message?.touched) || message?.dirty">
-      <app-message *ngIf="message?.errors?.['required']"
-        mensagem="O campo de mensagem deve ser preenchido."></app-message>
-      <app-message *ngIf="message?.errors?.['minlength']"
-        mensagem="O campo deve ter no mínimo 2 caracteres."></app-message>
-    </div>
+
     <div class="btn">
       <button type="submit" class="btn_form">Enviar</button>
     </div>

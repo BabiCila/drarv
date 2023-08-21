@@ -20,16 +20,19 @@ $input-color: #E0E0E0;
   }
 
   .form {
-    display: flex;
-    flex-direction: column;
-    padding: 0.5em;
+    display: block;
+    padding: 0.5em 1em;
 
+    .first_fields,
+    .second_fields {
+      display: grid;
+    }
 
     .input {
       margin: 0.2em;
       border: none;
       background-color: $input-color;
-      line-height: 1.5rem;
+      line-height: 2rem;
       border-radius: 0.3rem;
     }
     ::-webkit-input-placeholder  {
@@ -42,7 +45,8 @@ $input-color: #E0E0E0;
   }
 
   .btn {
-    padding-top: 0.5em;
+    padding: 0.5em 0;
+    width: 100%;
   }
 
   .btn_form {
@@ -57,4 +61,62 @@ $input-color: #E0E0E0;
   }
 }
 
+@media screen and (min-width: 1024px) {
 
+  .contact {
+    margin: 3em 5em 0em 5em;
+    padding: 0em 5em;
+
+    .title {
+      font-size: 2rem;
+      padding: 0;
+    }
+    .title_form {
+      font-size: 1.6rem;
+      text-align: left;
+      padding: 0.5em;
+    }
+
+    .form {
+      display: grid;
+      padding: 0.5em;
+
+      .first_fields {
+        display: inline-flex;
+      }
+
+      .input {
+        font-size: 1rem;
+        padding: 0.3em;
+        margin: 0.4em;
+        border-radius: 10px;
+        resize: none;
+      }
+
+      ::-webkit-input-placeholder  {
+        color: $font-color;
+        font-size: 1rem;
+        font-family: $default-font;
+        font-weight: 100;
+        padding: 0.6rem;
+      }
+
+      #nome,
+      #email {
+        width: 50%;
+      }
+    }
+
+    .btn {
+      text-align: end;
+    }
+
+    .btn_form {
+      width: 12%;
+      border-radius: 0.7em;
+      font-size: 1rem;
+      margin-right: 0.3em;
+    }
+  }
+
+}

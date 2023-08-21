@@ -52,7 +52,7 @@ $font-color: #815537;
   display: inline-block;
   text-align: center;
 
-  .text{
+  .title{
     font-size: 25px;
     color: $font-color;
     font-size: 1em;
@@ -73,4 +73,79 @@ $font-color: #815537;
   }
 }
 
+@media screen and (min-width: 1024px) {
 
+  .about {
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 3em;
+
+    .dra_img {
+      margin-top: 2em;
+      height: 25em;
+      border-radius: 50%;
+      width: 22em;
+    }
+
+    .texts {
+      padding: 1em;
+      width: 65%;
+      text-align: justify;
+
+      .name {
+        width: 90%;
+        padding: 1.5em 0.5em;
+      }
+
+      .subtitle {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 1em 2em 1em 3em;
+
+        .title {
+          font-size: 1.2em;
+        }
+      }
+
+      .text {
+        font-size: 1.2rem;
+        padding: 1em 6em 1.6em 1.7em;
+      }
+    }
+  }
+
+  .areas {
+    display: flow;
+    justify-content: center;
+    height: 100%;
+
+    .text{
+      display: inline;
+    }
+
+    .card-box {
+      display: initial;
+      padding: 2em;
+    }
+
+    .title{
+      font-size: 2rem;
+      padding: 1.5em;
+      margin-bottom: 0;
+    }
+
+    .link_div {
+      padding: 15em 4em 5em 4em;
+    }
+
+    .link {
+      font-size: 1.5rem;
+      padding: 2em
+
+    }
+  }
+
+}
